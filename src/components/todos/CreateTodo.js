@@ -7,13 +7,13 @@ class CreateTodo extends Component {
       text: '',
     };
   }
-   
+
   handleChange(event) {
     this.setState({
       text: event.target.value
     });
   };
-   
+
   render(){
     return(
       <div>
